@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template>
+ <object name="gateway" width="16" height="24">
+  <properties>
+   <property name="gateway" type="class" propertytype="felpojam::levels::spawn::LevelGatewayMarker">
+    <properties>
+     <property name="destination" value=""/>
+    </properties>
+   </property>
+  </properties>
+ </object>
+</template>

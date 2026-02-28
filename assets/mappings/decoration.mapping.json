@@ -1,0 +1,15 @@
+{
+    "sprites": {
+        "gate:yellow": { "pos": [32, 0], "size": [16, 40], "grid": [5, 1]},
+        "gate:purple": { "pos": [112, 0], "size": [16, 40], "grid": [5, 1]},
+        "iron_grate": { "pos": [192, 0], "size": [16, 40], "grid": [1, 1]}
+    },
+    "animations": {
+        "gate:yellow:closed": { "sprite": "gate:yellow", "frames": [0], "interval": 10.0 },
+        "gate:yellow:opening": { "sprite": "gate:yellow", "frames": [1,2,3,4], "interval": 0.5 },
+        "gate:yellow:open": { "sprite": "gate:yellow", "frames": [4], "interval": 10.0 },
+        "gate:purple:closed": { "sprite": "gate:purple", "frames": [0], "interval": 10.0 },
+        "gate:purple:opening": { "sprite": "gate:purple", "frames": [1,2,3,4], "interval": 0.5 },
+        "gate:purple:open": { "sprite": "gate:purple", "frames": [4], "interval": 10.0 }
+    }
+}

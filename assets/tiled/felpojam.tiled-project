@@ -1,0 +1,170 @@
+{
+    "automappingRulesFile": "",
+    "commands": [
+    ],
+    "compatibilityVersion": 1100,
+    "extensionsPath": "extensions",
+    "folders": [
+        "."
+    ],
+    "properties": [
+    ],
+    "propertyTypes": [
+        {
+            "color": "#ff000000",
+            "drawFill": true,
+            "id": 13,
+            "members": [
+                {
+                    "name": "color",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "name": "felpojam::levels::spawn::GateMarker",
+            "type": "class",
+            "useAs": [
+                "property"
+            ]
+        },
+        {
+            "color": "#ff000000",
+            "drawFill": true,
+            "id": 7,
+            "members": [
+            ],
+            "name": "felpojam::levels::spawn::GuardMarker",
+            "type": "class",
+            "useAs": [
+                "property"
+            ]
+        },
+        {
+            "color": "#ff000000",
+            "drawFill": true,
+            "id": 15,
+            "members": [
+            ],
+            "name": "felpojam::levels::spawn::InvisibleColliderMarker",
+            "type": "class",
+            "useAs": [
+                "property"
+            ]
+        },
+        {
+            "color": "#ff000000",
+            "drawFill": true,
+            "id": 14,
+            "members": [
+            ],
+            "name": "felpojam::levels::spawn::IronGrateMarker",
+            "type": "class",
+            "useAs": [
+                "property"
+            ]
+        },
+        {
+            "color": "#ff000000",
+            "drawFill": true,
+            "id": 12,
+            "members": [
+                {
+                    "name": "collision_size",
+                    "propertyType": "glam::Vec2",
+                    "type": "class",
+                    "value": {
+                        "x": 6,
+                        "y": 8
+                    }
+                },
+                {
+                    "name": "interaction_size",
+                    "propertyType": "glam::Vec2",
+                    "type": "class",
+                    "value": {
+                        "x": 12,
+                        "y": 12
+                    }
+                },
+                {
+                    "name": "item_id",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "name": "pickup_range",
+                    "type": "float",
+                    "value": 32
+                }
+            ],
+            "name": "felpojam::levels::spawn::ItemMarker",
+            "type": "class",
+            "useAs": [
+                "property"
+            ]
+        },
+        {
+            "color": "#ff000000",
+            "drawFill": true,
+            "id": 8,
+            "members": [
+            ],
+            "name": "felpojam::levels::spawn::LadderMarker",
+            "type": "class",
+            "useAs": [
+                "property"
+            ]
+        },
+        {
+            "color": "#ff000000",
+            "drawFill": true,
+            "id": 10,
+            "members": [
+                {
+                    "name": "destination",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "name": "felpojam::levels::spawn::LevelGatewayMarker",
+            "type": "class",
+            "useAs": [
+                "property"
+            ]
+        },
+        {
+            "color": "#ff000000",
+            "drawFill": true,
+            "id": 9,
+            "members": [
+            ],
+            "name": "felpojam::levels::spawn::PlayerMarker",
+            "type": "class",
+            "useAs": [
+                "property"
+            ]
+        },
+        {
+            "color": "#ff000000",
+            "drawFill": true,
+            "id": 16,
+            "members": [
+                {
+                    "name": "x",
+                    "type": "float",
+                    "value": 0
+                },
+                {
+                    "name": "y",
+                    "type": "float",
+                    "value": 0
+                }
+            ],
+            "name": "glam::Vec2",
+            "type": "class",
+            "useAs": [
+                "property"
+            ]
+        }
+    ]
+}

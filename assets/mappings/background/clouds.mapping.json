@@ -1,0 +1,5 @@
+{
+    "sprites": {
+        "background_clouds": { "type": "single", "pos": [0, 0], "size": [1500, 500] }
+    }
+}

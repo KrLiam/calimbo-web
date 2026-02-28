@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template>
+ <tileset firstgid="1" source="../tilesets/entities.tsx"/>
+ <object gid="1" width="16" height="24">
+  <properties>
+   <property name="player" type="class" propertytype="felpojam::levels::spawn::PlayerMarker"/>
+  </properties>
+ </object>
+</template>

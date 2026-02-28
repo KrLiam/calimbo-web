@@ -1,0 +1,153 @@
+[
+  {
+    "id": 1,
+    "name": "felpojam::levels::spawn::GateMarker",
+    "type": "class",
+    "useAs": [
+      "property"
+    ],
+    "color": "#000000",
+    "drawFill": true,
+    "members": [
+      {
+        "name": "color",
+        "type": "string",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "felpojam::levels::spawn::GuardMarker",
+    "type": "class",
+    "useAs": [
+      "property"
+    ],
+    "color": "#000000",
+    "drawFill": true,
+    "members": []
+  },
+  {
+    "id": 3,
+    "name": "felpojam::levels::spawn::InvisibleColliderMarker",
+    "type": "class",
+    "useAs": [
+      "property"
+    ],
+    "color": "#000000",
+    "drawFill": true,
+    "members": []
+  },
+  {
+    "id": 4,
+    "name": "felpojam::levels::spawn::IronGrateMarker",
+    "type": "class",
+    "useAs": [
+      "property"
+    ],
+    "color": "#000000",
+    "drawFill": true,
+    "members": []
+  },
+  {
+    "id": 5,
+    "name": "felpojam::levels::spawn::ItemMarker",
+    "type": "class",
+    "useAs": [
+      "property"
+    ],
+    "color": "#000000",
+    "drawFill": true,
+    "members": [
+      {
+        "name": "item_id",
+        "type": "string",
+        "value": ""
+      },
+      {
+        "name": "pickup_range",
+        "type": "float",
+        "value": 32.0
+      },
+      {
+        "name": "collision_size",
+        "propertyType": "glam::Vec2",
+        "type": "class",
+        "value": {
+          "x": 6.0,
+          "y": 8.0
+        }
+      },
+      {
+        "name": "interaction_size",
+        "propertyType": "glam::Vec2",
+        "type": "class",
+        "value": {
+          "x": 12.0,
+          "y": 12.0
+        }
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "felpojam::levels::spawn::LadderMarker",
+    "type": "class",
+    "useAs": [
+      "property"
+    ],
+    "color": "#000000",
+    "drawFill": true,
+    "members": []
+  },
+  {
+    "id": 7,
+    "name": "felpojam::levels::spawn::LevelGatewayMarker",
+    "type": "class",
+    "useAs": [
+      "property"
+    ],
+    "color": "#000000",
+    "drawFill": true,
+    "members": [
+      {
+        "name": "destination",
+        "type": "string",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "felpojam::levels::spawn::PlayerMarker",
+    "type": "class",
+    "useAs": [
+      "property"
+    ],
+    "color": "#000000",
+    "drawFill": true,
+    "members": []
+  },
+  {
+    "id": 9,
+    "name": "glam::Vec2",
+    "type": "class",
+    "useAs": [
+      "property"
+    ],
+    "color": "#000000",
+    "drawFill": true,
+    "members": [
+      {
+        "name": "x",
+        "type": "float",
+        "value": 0.0
+      },
+      {
+        "name": "y",
+        "type": "float",
+        "value": 0.0
+      }
+    ]
+  }
+]

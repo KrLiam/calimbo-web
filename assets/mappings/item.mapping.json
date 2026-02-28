@@ -1,0 +1,6 @@
+{
+    "sprites": {
+        "item:gate_key:yellow": { "pos": [0, 0], "size": [8, 8] },
+        "item:gate_key:purple": { "pos": [8, 0], "size": [8, 8] }
+    }
+}

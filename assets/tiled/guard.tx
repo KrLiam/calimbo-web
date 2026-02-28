@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template>
+ <tileset firstgid="1" source="entities.tsx"/>
+ <object gid="2" width="24" height="32">
+  <properties>
+   <property name="guard" type="class" propertytype="felpojam::levels::spawn::GuardMarker"/>
+  </properties>
+ </object>
+</template>

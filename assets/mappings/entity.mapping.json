@@ -1,0 +1,6 @@
+{
+    "sprites": {
+        "player:idle:right": { "pos": [8, 48], "size": [16, 24] },
+        "player:idle:left": { "pos": [8, 88], "size": [16, 24] }
+    }
+}

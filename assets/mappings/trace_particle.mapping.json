@@ -1,0 +1,8 @@
+{
+    "sprites": {
+        "trace_particle": { "pos": [0, 0], "size": [8, 8], "grid": [5, 1] }
+    },
+    "animations": {
+        "trace_particle": { "sprite": "trace_particle", "frames": [0, 1, 2, 3, 4], "interval": 0.2 }
+    }
+}

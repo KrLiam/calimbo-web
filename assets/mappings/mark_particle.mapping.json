@@ -1,0 +1,8 @@
+{
+    "sprites": {
+        "mark_particle": { "pos": [0, 0], "size": [32, 64], "grid": [8, 1] }
+    },
+    "animations": {
+        "mark_particle": { "sprite": "mark_particle", "frames": [0, 1, 2, 3, 4, 5, 6, 7], "interval": 0.15 }
+    }
+}

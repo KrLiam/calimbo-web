@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template>
+ <tileset firstgid="1" source="../tilesets/decorations.tsx"/>
+ <object gid="13" width="16" height="40">
+  <properties>
+   <property name="iron_grate" type="class" propertytype="felpojam::levels::spawn::IronGrateMarker"/>
+  </properties>
+ </object>
+</template>

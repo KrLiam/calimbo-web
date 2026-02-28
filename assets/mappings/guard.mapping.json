@@ -1,0 +1,25 @@
+{
+    "sprites": {
+        "guard": { "pos": [0, 0], "size": [24, 32], "grid": [8, 4] },
+        "marked_guard": { "pos": [0, 128], "size": [24, 32], "grid": [8, 4] }
+    },
+    "animations": {
+        "guard:idle:right": { "sprite": "guard", "frames": [0,1,2,3,4,5,6,7], "interval": 0.2 },
+        "guard:idle:left": { "sprite": "guard", "frames": [8,9,10,11,12,13,14,15], "interval": 0.2 },
+        "guard:run:right": { "sprite": "guard", "frames": [16,17,18,19,20,21,22,23], "interval": 0.2 },
+        "guard:run:left": { "sprite": "guard", "frames": [24,25,26,27,28,29,30,31], "interval": 0.2 },
+        "guard:jump:right": { "sprite": "guard", "frames": [17], "interval": 0.2 },
+        "guard:jump:left": { "sprite": "guard", "frames": [25], "interval": 0.2 },
+        "guard:fall:right": { "sprite": "guard", "frames": [18], "interval": 0.2 },
+        "guard:fall:left": { "sprite": "guard", "frames": [26], "interval": 0.2 },
+
+        "marked_guard:idle:right": { "sprite": "marked_guard", "frames": [0,1,2,3,4,5,6,7], "interval": 0.2 },
+        "marked_guard:idle:left": { "sprite": "marked_guard", "frames": [8,9,10,11,12,13,14,15], "interval": 0.2 },
+        "marked_guard:run:right": { "sprite": "marked_guard", "frames": [16,17,18,19,20,21,22,23], "interval": 0.2 },
+        "marked_guard:run:left": { "sprite": "marked_guard", "frames": [24,25,26,27,28,29,30,31], "interval": 0.2 },
+        "marked_guard:jump:right": { "sprite": "marked_guard", "frames": [17], "interval": 0.2 },
+        "marked_guard:jump:left": { "sprite": "marked_guard", "frames": [25], "interval": 0.2 },
+        "marked_guard:fall:right": { "sprite": "marked_guard", "frames": [18], "interval": 0.2 },
+        "marked_guard:fall:left": { "sprite": "marked_guard", "frames": [26], "interval": 0.2 }
+    }
+}

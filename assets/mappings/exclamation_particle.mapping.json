@@ -1,0 +1,8 @@
+{
+    "sprites": {
+        "exclamation_particle": { "pos": [0, 0], "size": [16, 32], "grid": [5, 1] }
+    },
+    "animations": {
+        "exclamation_particle": { "sprite": "exclamation_particle", "frames": [0, 1, 2, 3, 4], "interval": 0.2 }
+    }
+}

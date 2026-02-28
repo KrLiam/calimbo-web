@@ -6,8 +6,8 @@
     <title>Calimbo</title>
     
 <script type="module">
-import init, * as bindings from '/calimbo/calimbo-19f533dd2cd60c02.js';
-const wasm = await init({ module_or_path: '/calimbo/calimbo-19f533dd2cd60c02_bg.wasm' });
+import init, * as bindings from './calimbo-19f533dd2cd60c02.js';
+const wasm = await init({ module_or_path: './calimbo-19f533dd2cd60c02_bg.wasm' });
 
 
 window.wasmBindings = bindings;
@@ -16,7 +16,7 @@ window.wasmBindings = bindings;
 dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
 
 </script>
-<link rel="modulepreload" href="/calimbo/calimbo-19f533dd2cd60c02.js" crossorigin="anonymous" integrity="sha384-PrQEh/6fzt8CpTI/fiCBXnQTE4DzZ6vRzwfVXSBrZ8svEfsTP94Tx0QhRXfT4jmw"><link rel="preload" href="/calimbo/calimbo-19f533dd2cd60c02_bg.wasm" crossorigin="anonymous" integrity="sha384-DN+tlEk3hWVXOU3EKj0VgifCmnUJBvsVDj5/mv0uRM/myYvYA0PzM+cYCosEpVjQ" as="fetch" type="application/wasm"></head>
+<link rel="modulepreload" href="./calimbo-19f533dd2cd60c02.js" crossorigin="anonymous" integrity="sha384-PrQEh/6fzt8CpTI/fiCBXnQTE4DzZ6vRzwfVXSBrZ8svEfsTP94Tx0QhRXfT4jmw"><link rel="preload" href="./calimbo-19f533dd2cd60c02_bg.wasm" crossorigin="anonymous" integrity="sha384-DN+tlEk3hWVXOU3EKj0VgifCmnUJBvsVDj5/mv0uRM/myYvYA0PzM+cYCosEpVjQ" as="fetch" type="application/wasm"></head>
 
 <body>
     <!-- Bevy canvas will be injected here -->
